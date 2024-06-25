@@ -1,0 +1,96 @@
+:root{
+    --primary: rgb(205, 106, 0);
+    --muted: gray;
+    --radius: 12px;
+}
+
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    width: 600px;
+}
+
+.user{
+    height: 160px;
+    border-radius:  var(--radius);
+}
+
+.name{
+    margin-top: 0;
+}
+
+.desc{
+    color: rgb(72, 72, 72);
+}
+
+.btn{
+    background-color: var(--primary);
+    color: white;
+    border-radius: var(--radius);
+    padding: 16px 30px;
+    font-size: 16px;
+    border: 1px solid var(--primary);
+}
+
+.btn:hover{
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+
+.btn-outline{
+    background-color: white;
+    border: 1px solid var(--primary);
+    border-radius:  var(--radius);
+    padding: 16px 30px;
+    font-size: 16px;
+    
+    color: var(--primary);
+}
+
+
+
+.card{
+    width: 260px;
+   
+    border: 1px solid lightgreen;
+    border-radius: var(--radius);
+    padding: 10px;
+}
+
+
+.card-img{
+    width: 100%;
+    border-radius: var(--radius);
+}
+
+
+.container{
+    display: grid;
+    justify-content: center;
+ grid-template-columns: 300px 300px 300px 200px;
+
+}
+
+.demo{
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: 1fr 5fr 1fr 2fr;
+     grid-template-rows: 100px;
+    
+}
+
+.item{
+   
+    background-color: blueviolet;
+    
+}

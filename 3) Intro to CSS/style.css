@@ -1,0 +1,20 @@
+.title{
+    font-size: medium;
+    font-family:inherit;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+    text-decoration: dotted;
+    text-align: center;
+    color:aqua;
+}
+
+
+.sub-title{
+    font-size: xx-large;
+    font-family:inherit;
+    word-spacing: 30px;
+    letter-spacing: 5px;
+    text-decoration: dodgerblue;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,100 @@
+.body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card{
+    width: 300px;
+    border: 3px solid grey;
+    flex-grow: 1;
+     
+    
+
+}
+
+.card-img{
+    width: 100%;
+}
+
+.bug{
+    font-family: monospace;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bang{
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid hotpink;
+    width: 350px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+
+.bang-img{
+     width: 100%;
+    
+}
+
+
+.card-body{
+    padding: 8px;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.desc{
+    border: 2px dotted pink;
+}
+
+
+.box{
+    /* height: 150px; */
+    width: 150px;
+    
+    border-radius: 12px;
+}
+
+.one{
+    background-color: brown;
+    height: 120px;
+    /* order: 2; */
+    /* flex-grow: 10; */
+}
+
+.two{
+    background-color: yellow;
+    height: 100px;
+    /* order: 3; */
+    /* flex-grow: 6; */
+}
+
+.three{
+    background-color: orangered;
+    height: 150px;
+    /* order: 1; */
+    /* flex-grow: 4; */
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    gap: 15px;
+    /* flex-direction: row-reverse; */
+    justify-content:  center; 
+    flex-wrap: wrap;
+     align-items: center;
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+   
+
